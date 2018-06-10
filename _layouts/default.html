@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-    <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!-- Sets Language per Page-->
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+    <!-- Add Head Tag Information -->
+    {% include head.html %}
+    <body>
+        <!-- Add Header to Site -->
+        {% include header.html %}
 
-        {% include head.html %}
+        <!-- Per-Page Content -->
+        {{ content }}
 
-        <body>
-            {{ content }}
-        </body>
-
-    </html>
+        <!-- Add Footer to Site -->
+        {% include footer.html %}
+    </body>
+</html>
