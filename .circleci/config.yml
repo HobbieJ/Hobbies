@@ -11,3 +11,4 @@ jobs:
       - checkout
       # Test All Dependencies
       - run: ruby -v && gem -v && gcc -v && g++ -v && make -v
+      - run: bundle exec jekyll build --destination $HOBBIES_BUILD_DIR
