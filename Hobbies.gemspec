@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "Hobbies"
-  spec.version       = "0.1.0"
+  spec.version       = "0.3.0"
   spec.authors       = ["Jacob Hobbie"]
   spec.email         = ["contact@jacobhobbie.com"]
 
@@ -10,7 +10,9 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/HobbieJ/Hobbies"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
+  spec.metadata["plugin_type"] = "theme"
+
+  spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.5"
