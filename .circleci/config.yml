@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:latest
+    working_directory: ~/Hobbies
+    environment:
+      - HOBBIES_BUILD_DIR: ~/Hobbies/Build
+      - JEKYLL_ENV = production
+    steps:
+      - checkout
+      - run: 
+          name: Check Jekyll Dependencies
+          command: ruby -v && gem -v && gcc -v && g++ -v && make -v
+      - run: 
+          name: Install Jekyll & Hobbies Dependencies
+          command: bundle install
+      - run: 
+          name: Build Hobbies
+          command: jekyll build --destination $HOBBIES_BUILD_DIR
