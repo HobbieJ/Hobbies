@@ -1,9 +1,9 @@
-<ul>
-    <a href="">GitHub</a> 
+<ul class="social">
+    <a href="https://github.com/{{ site.github_username | cgi_escape | escape }}">GitHub</a> 
     <p>&#8226;</p>
-    <a href="">Twitter</a> 
+    <a href="https://twitter.com/{{ site.twitter_username | cgi_escape | escape }}">Twitter</a> 
     <p>&#8226;</p>
-    <a href="">LinkedIn</a> 
+    <a href="https://linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}/">LinkedIn</a> 
     <p>&#8226;</p>
-    <a href="">RSS</a>
+    <a href="{{ 'feed.xml' | relative_url }}">RSS</a>
 </ul>

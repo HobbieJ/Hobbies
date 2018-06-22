@@ -10,7 +10,7 @@ layout: default
         <p class="post-meta">
             <!-- DateTime Assigned as XML for Atom? -->
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                {% assign date_format = site.Hobbies.date_format | default: %b %-d, %Y" %}
+                {% assign date_format = site.Hobbies.date_format | default: "%b %-d, %Y" %}
                 {{ page.date | date: date_format }}
             </time>
             {% if page.author %}
