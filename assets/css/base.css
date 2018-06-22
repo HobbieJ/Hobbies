@@ -1,4 +1,123 @@
 body {
 	font-family: "Hack", "Menlo", "Consolas", "monospaced";
 	background-color: #282A36;
+	color: #eff0eb;
+	margin: 0;
+}
+
+header {
+	border-bottom: 5px solid #eff0eb;
+	padding-bottom: 10px;
+}
+
+.top-left {
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+.top-right {
+	float: right;
+	margin: 10px 0 0 10px;
+}
+
+.clear-all {
+	clear: both;
+}
+
+header img {
+	width: 40px;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.title {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.title a {
+	color: #eff0eb;
+	font-size: 24px;
+	margin: auto;
+}
+
+.title a:hover {
+	color: #eff0eb;
+	text-decoration: underline;
+}
+
+.top-nav {
+	vertical-align: middle;
+	margin: 10px 15px 0 0;
+}
+
+.top-nav a {
+	color: #eff0eb;
+	font-size: 20px;
+	padding-right: 5px;
+}
+
+.top-nav a:hover {
+	color: #eff0eb;
+	text-decoration: underline;
+}
+
+a {
+	color: #57c7ff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.content {
+	margin: 25px 375px;
+	line-height: 25px;
+}
+
+.content h1 {
+	font-size: 28px;
+	text-align: center;
+}
+
+.content h2 {
+	font-size: 26px;
+}
+
+.content h3 {
+	font-size: 24px;
+}
+
+.content h4 {
+	font-size: 22px;
+}
+
+.content h5 {
+	font-size: 20px;
+}
+
+.content h6 {
+	font-size: 18px;
+}
+
+.content p {
+	font-size: 16px;
+}
+
+.content blockquote {
+	color: #eff0eb;
+	background-color: black;
+	border-left: 5px solid #eff0eb;
+	border-radius: 0 10px 10px 0;
+}
+
+.content blockquote p {
+	padding: 5px 5px 5px 10px;
+}
+
+footer {
+	border-top: 5px solid #eff0eb;
+	text-align: center;
 }
