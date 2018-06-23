@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% if page.title %}
     <h1>{{ page.title }}</h1>
 {% endif %}
@@ -11,10 +12,10 @@ layout: default
     {% if site.posts.size > 0 %}
         <ul>
             {% for post in site.posts %}
-                <li>
+                <li class="index-post">
                     {% assign date_format = site.Hobbies.date_format | default: "%b %-d, %Y" %}
-                    <span>{{ post.date | date: date_format }}</span>
-                    <h3>
+                    <span class="index-date">{{ post.date | date: date_format }}</span>
+                    <h3 class="index-title">
                         <a href="{{ post.url | relative_url }}">
                             {{ post.title | escape }}
                         </a>
