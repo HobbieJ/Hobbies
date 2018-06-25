@@ -1,0 +1,40 @@
+/* CSS for Desktops */
+
+/* Header */
+
+.site-header {
+    border-bottom: 5px solid #eff0eb;
+    padding: 2% 25% 1% 25%;
+}
+
+.title a {
+    font-size: 150%;
+}
+
+.top-nav a {
+    font-size: 125%;
+}
+
+/* Content */
+
+.content {
+    margin: 2% 25%;
+}
+
+.home ul {
+    padding: 0 2.5%;
+}
+
+.index-post {
+    margin: 4% 0;
+}
+
+/* Footer */
+
+.site-footer {
+    border-top: 5px solid #eff0eb;
+}
+
+.footer-description {
+    margin: auto 25%;
+}

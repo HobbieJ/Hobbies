@@ -1,74 +1,11 @@
+/* CSS Shared for All Screens */
+
+/* Site */
+
 body {
 	font-family: "Hack", "Menlo", "Consolas", "monospaced";
 	background-color: #282A36;
 	color: #eff0eb;
-	margin: 0;
-}
-
-.site-header {
-	border-bottom: 5px solid #eff0eb;
-	padding-bottom: 10px;
-}
-
-.top-left {
-	float: left;
-	margin: 10px 0 0 10px;
-}
-
-.top-right {
-	float: right;
-	margin: 10px 0 0 10px;
-}
-
-.clear-all {
-	clear: both;
-}
-
-.site-header img {
-	width: 40px;
-	margin: auto;
-	vertical-align: middle;
-}
-
-.title {
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0;
-}
-
-.title a {
-	color: #eff0eb;
-	font-size: 24px;
-	margin: auto;
-}
-
-.title a:hover {
-	color: #eff0eb;
-	text-decoration: underline;
-}
-
-.top-nav {
-	vertical-align: middle;
-	margin: 10px 15px 0 0;
-}
-
-.top-nav a {
-	color: #eff0eb;
-	font-size: 20px;
-	padding-right: 5px;
-}
-
-.top-nav a:hover {
-	color: #eff0eb;
-	text-decoration: underline;
-}
-
-.index-post {
-	margin: 30px 0;
-	list-style-type: none;
-}
-
-.index-title {
 	margin: 0;
 }
 
@@ -81,8 +18,52 @@ a:hover {
 	text-decoration: underline;
 }
 
+/* Header */
+
+.top-left {
+	float: left;
+	vertical-align: bottom;
+}
+
+.top-right {
+	float: right;
+	
+}
+
+.clear-all {
+	clear: both;
+}
+
+.title a {
+	color: #eff0eb;
+	font-weight: bold;
+}
+
+.title a:hover {
+	color: #eff0eb;
+	text-decoration: underline;
+}
+
+.top-nav a {
+	color: #eff0eb;
+}
+
+.top-nav a:hover {
+	color: #eff0eb;
+	text-decoration: underline;
+}
+
+/* Content */
+
+.index-post {
+	list-style-type: none;
+}
+
+.index-title {
+	margin: 0;
+}
+
 .content {
-	margin: 25px 375px;
 	line-height: 25px;
 }
 
@@ -126,12 +107,33 @@ a:hover {
 	padding: 5px 5px 5px 10px;
 }
 
+.content .highlight {
+	margin: 0;
+}
+
+.content pre {
+	background-color: black;
+	border-radius: 10px;
+	margin: 1%;
+	padding: 0.5% 2%;
+}
+
+.content code {
+	background-color: black;
+	padding: 0.25% 0.5%;
+}
+
+.content .highlight code {
+	padding: 0;
+}
+
+/* Footer */
+
 .social a, .social p {
 	display: inline-block;
 	margin: 0;
 }
 
 .site-footer {
-	border-top: 5px solid #eff0eb;
 	text-align: center;
 }

@@ -3,23 +3,22 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-    <!-- Picture & Name -->
-    <div class="top-left">
-        <img src="{{ "/assets/images/HobbieJ.jpg" | relative_url }}">
-        <h1 class=title><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+    <!-- Name -->
+    <div class="top-left title">
+        <a href="{{ "/" | relative_url }}">
+            {{ site.title }}
+        </a>
     </div>
 
     <!-- Nav Bar -->
-    <div class="top-right">
+    <div class="top-right top-nav">
         {% if page_paths %}
-            <nav class="top-nav">
-                {% for path in page_paths %}
-                    {% assign my_page = site.pages | where: "path", path | first %}
-                    {% if my_page.title %}
-                        <a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
-                    {% endif %}
-                {% endfor %}
-            </nav>
+            {% for path in page_paths %}
+                {% assign my_page = site.pages | where: "path", path | first %}
+                {% if my_page.title %}
+                    <a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
+                {% endif %}
+            {% endfor %}
         {% endif %}
     </div>
     <div class="clear-all"></div>
