@@ -1,13 +1,15 @@
 <head>
     <!-- Basic Meta Tags (Responsive Design) -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=width-device, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Jekyll SEO Gem -->
     {% seo %}
     <!-- Jekyll RSS Feed Gem -->
     {% feed_meta %}
     <!-- Fonts -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ "/assets/css/base.css" | relative_url }}">
+    <!-- CSS (Responsive) -->
+    <link rel="stylesheet" href="{{ "/assets/css/Hobbies.css" | relative_url }}">
+    <link rel="stylesheet" media="(max-width:769px)" href="{{ "/assets/css/mobile.css" | relative_url }}">
+    <link rel="stylesheet" media="(min-width:770px)" href="{{ "/assets/css/desktop.css" | relative_url }}">
 </head>

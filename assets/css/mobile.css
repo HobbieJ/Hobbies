@@ -1,0 +1,48 @@
+/* CSS for Mobile Screens */
+
+/* Header */
+
+.site-header {
+    border-bottom: 1px solid #eff0eb;
+    padding: 2% 5% 1% 5%;
+}
+
+.title a {
+    font-size: 100%;
+}
+
+.top-nav a {
+    font-size: 75%;
+}
+
+/* Content */
+
+.content {
+    margin: 5% 5%;
+}
+
+.home ul {
+    padding: 0 5%;
+}
+
+.index-post {
+    margin: 5% 0;
+}
+
+/* Footer */
+
+.site-footer {
+    border-top: 1px solid #eff0eb;
+}
+
+.footer-description {
+    margin: auto 5%;
+}
+
+.social {
+    margin: auto 5%;
+}
+
+.copyright {
+    margin: auto 5%;
+}
