@@ -1,11 +1,10 @@
 # Hobbies
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+Welcome to Hobbies, a Jekyll theme made for developers who want to say a little more than "Hello World!"
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+Hobbies is inspired by the minimal asthetic of [minima](https://github.com/jekyll/minima) and the colors of [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy). A warm "Thank You!" to these inspirations.
 
-TODO: Delete this and the text above, and describe your gem
-
+The theme should always be considered a **BETA** product, and large design and asthetic changes may always occur on the theme. As I continue to grow up, my sense of style and design changes, and so this theme will change along with it! Any design I deem as a final "product" will be put into its own repository.
 
 ## Installation
 
@@ -29,24 +28,10 @@ Or install it yourself as:
 
     $ gem install Hobbies
 
-## Usage
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
-
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `Hobbies.gemspec` accordingly.
+Suggestions and helpful criticism is always welcome through the use of pull requests!
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
