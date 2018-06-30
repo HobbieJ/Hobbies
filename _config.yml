@@ -1,0 +1,32 @@
+# Site Settings
+title: Your Website
+author: Your Name
+email: email@domain.com
+description: >-
+  Your description will appear in Google searches, as well as in
+  your RSS feed, so make it good!
+
+# Social Settings
+twitter_username: Twitter
+github_username: GitHub
+linkedin_username: LinkedIn
+
+# Build Settings
+# theme: Hobbies
+
+# Plugins
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+# Exclude From Processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
