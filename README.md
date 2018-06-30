@@ -38,7 +38,7 @@ Or install it yourself as:
 
 ## Contributing
 
-Suggestions and helpful criticism is always welcome through the use of pull requests!
+Suggestions and helpful criticism is always welcome through the use of pull requests! A guide on how to contribute can be found [here](https://github.com/HobbieJ/Hobbies/blob/master/CONTRIBUTING.md).
 
 ## License
 
