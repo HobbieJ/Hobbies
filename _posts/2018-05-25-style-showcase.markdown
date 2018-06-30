@@ -38,7 +38,7 @@ A [Hyperlink](https://github.com/HobbieJ/Hobbies/) to Hobbies' GitHub Page!
 
 A Codeblock and an example of `inline code`:
 
-{% highlight %}
+{% highlight csharp %}
 var strFirst;
 var strLast;
 var strFinal;
