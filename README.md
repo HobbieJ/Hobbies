@@ -1,5 +1,9 @@
 # Hobbies
 
+
+![CircleCI branch](https://img.shields.io/circleci/project/github/HobbieJ/Hobbies/master.svg?style=flat-square)
+![Gem](https://img.shields.io/gem/dtv/Hobbies.svg?style=flat-square)
+
 Welcome to Hobbies, a Jekyll theme made for developers who want to say a little more than "Hello World!"
 
 Hobbies is inspired by the minimal asthetic of [minima](https://github.com/jekyll/minima) and the colors of [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy). A warm "Thank You!" to these inspirations.
