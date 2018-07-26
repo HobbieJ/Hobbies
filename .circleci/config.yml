@@ -24,20 +24,20 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Create Gem
-        command: gem build Hobbies.gemspec
+          name: Create Gem
+          command: gem build Hobbies.gemspec
       - run:
-        name: Place Credentials
-        command: |
+          name: Place Credentials
+          command: |
           mkdir ~/.gem
           cat .circleci/gem_credentials | sed -e "s/__RUBYGEMS_KEY__/${RUBYGEMS_KEY}/" > ~/.gem/credentials
           chmod 0600 ~/gem/credentials
       - run:
-        name: Upload Gem
-        command: gem push hobbies-*.gem
+          name: Upload Gem
+          command: gem push hobbies-*.gem
       - run:
-        name: Shred Credentials
-        command: shred -u ~/.gem/credentials
+          name: Shred Credentials
+          command: shred -u ~/.gem/credentials
 
 workflows:
   version: 2
