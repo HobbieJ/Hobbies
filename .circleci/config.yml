@@ -27,20 +27,17 @@ jobs:
           name: Create Gem
           command: gem build Hobbies.gemspec
       - run:
-          name: Place Credentials
-          command: |
-            echo -e "Testing Data\n"
-            echo "The API Key is:"
-            echo $RUBYGEMS_KEY
-            echo -e "\nThe API Key in the cat command is:"
-            echo ${RUBYGEMS_KEY}
-            mkdir ~/.gem
-            cat .circleci/gem_credentials | sed -e "s/__RUBYGEMS_KEY__/${RUBYGEMS_KEY}/" > ~/.gem/credentials
-            chmod 0600 ~/.gem/credentials
-            nano ~/.gem/credentials
+          name: Create ".gem" Directory
+          command: mkdir ~/.gem
+      - run:
+          name: Add API Key File
+          command: cat .circleci/gem_credentials | sed -e "s/__RUBYGEMS_KEY__/${RUBYGEMS_KEY}/" > ~/.gem/credentials
+      - run:
+          name: Change Permissions of Credential File
+          command: chmod 0600 ~/.gem/credentials
       - run:
           name: Upload Gem
-          command: gem push -k hobbies-*.gem
+          command: gem push hobbies-*.gem
       - run:
           name: Shred Credentials
           command: shred -u ~/.gem/credentials
