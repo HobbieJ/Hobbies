@@ -25,7 +25,7 @@ jobs:
       - checkout
       - run:
           name: Create Gem
-          command: gem build -k Hobbies.gemspec
+          command: gem build Hobbies.gemspec
       - run:
           name: Place Credentials
           command: |
@@ -34,7 +34,7 @@ jobs:
             chmod 0600 ~/.gem/credentials
       - run:
           name: Upload Gem
-          command: gem push hobbies-*.gem
+          command: gem push -k hobbies-*.gem
       - run:
           name: Shred Credentials
           command: shred -u ~/.gem/credentials
