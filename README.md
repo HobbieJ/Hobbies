@@ -23,13 +23,13 @@ You'll need an instance of Jekyll! Check out the [Jekyll documentation](https://
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "Hobbies"
+gem "hobbies"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: Hobbies
+theme: hobbies
 ```
 
 And then execute:
@@ -38,7 +38,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install Hobbies
+    $ gem install hobbies
 
 ## Contributing
 
