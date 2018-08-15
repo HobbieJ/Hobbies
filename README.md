@@ -1,9 +1,9 @@
 # Hobbies
 
 [![CircleCI branch](https://img.shields.io/circleci/project/github/HobbieJ/Hobbies/master.svg?longCache=true&style=for-the-badge)](https://circleci.com/gh/HobbieJ/Hobbies/tree/master)
-[![Gem](https://img.shields.io/gem/v/hobbies.svg?longCache=true&style=for-the-badge)](https://rubygems.org/gems/hobbies)
-[![Gem](https://img.shields.io/gem/dtv/hobbies.svg?longCache=true&style=for-the-badge)](https://rubygems.org/gems/hobbies)
-[![GitHub license](https://img.shields.io/github/license/HobbieJ/Hobbies.svg?longCache=true&style=for-the-badge)](https://github.com/HobbieJ/Hobbies/blob/master/LICENSE.txt)
+[![Gem](https://img.shields.io/gem/v/hobbies.svg?longCache=true&style=for-the-badge&color=blue)](https://rubygems.org/gems/hobbies)
+[![Gem](https://img.shields.io/gem/dtv/hobbies.svg?longCache=true&style=for-the-badge&color=blue)](https://rubygems.org/gems/hobbies)
+[![GitHub license](https://img.shields.io/github/license/HobbieJ/Hobbies.svg?longCache=true&style=for-the-badge&color=blue)](https://github.com/HobbieJ/Hobbies/blob/master/LICENSE.txt)
 
 Welcome to Hobbies, a Jekyll theme made for developers who want to say a little more than "Hello World!"
 
