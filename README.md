@@ -1,8 +1,9 @@
 # Hobbies
 
-
-![CircleCI branch](https://img.shields.io/circleci/project/github/HobbieJ/Hobbies/master.svg?style=flat-square)
-![Gem](https://img.shields.io/gem/dtv/hobbies.svg?style=flat-square)
+[![CircleCI branch](https://img.shields.io/circleci/project/github/HobbieJ/Hobbies/master.svg)](https://circleci.com/gh/HobbieJ/Hobbies/tree/master)
+[![Gem](https://img.shields.io/gem/v/hobbies.svg)](https://rubygems.org/gems/hobbies)
+[![Gem](https://img.shields.io/gem/dtv/hobbies.svg)](https://rubygems.org/gems/hobbies)
+[![GitHub license](https://img.shields.io/github/license/HobbieJ/Hobbies.svg)](https://github.com/HobbieJ/Hobbies/blob/master/LICENSE.txt)
 
 Welcome to Hobbies, a Jekyll theme made for developers who want to say a little more than "Hello World!"
 
