@@ -1,6 +1,6 @@
 # Hobbies
 
-[![Donate](https://img.shields.io/badge/Donate-Square%20Cash-brightgreen.svg)](https://cash.me/$HobbieJ)
+[![Donate](https://img.shields.io/badge/Donate-Square%20Cash-brightgreen.svg?style=for-the-badge)](https://cash.me/$HobbieJ)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/HobbieJ/Hobbies/master.svg?longCache=true&style=for-the-badge)](https://circleci.com/gh/HobbieJ/Hobbies/tree/master)
 [![Gem](https://img.shields.io/gem/v/hobbies.svg?longCache=true&style=for-the-badge&colorB=blue)](https://rubygems.org/gems/hobbies)
 [![Gem](https://img.shields.io/gem/dt/hobbies.svg?longCache=true&style=for-the-badge&colorB=blue)](https://rubygems.org/gems/hobbies)
