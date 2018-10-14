@@ -6,19 +6,19 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <!-- Article Header -->
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="post-meta">
-            <!-- DateTime Assigned as XML for Atom? -->
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                {% assign date_format = site.Hobbies.date_format | default: "%b %-d, %Y" %}
-                {{ page.date | date: date_format }}
-            </time>
             {% if page.author %}
                 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                     <span class="post-author" itemprop="name"{{ page.author }}></span>
                 </span>
             {% endif %}
+            <!-- DateTime -->
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {% assign date_format = site.Hobbies.date_format | default: "%b %-d, %Y" %}
+                {{ page.date | date: date_format }}
+            </time>
         </p>
+        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     </header>
 
     <!-- Post Content -->
